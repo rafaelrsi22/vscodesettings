@@ -1,0 +1,102 @@
+{
+    "workbench.iconTheme": "catppuccin-mocha",
+    "editor.wordWrap": "on",
+    "smartsemicolon.autoLineChange": false,
+    "smartsemicolon.enable": true,
+    "editor.fontFamily": "Dank Mono",
+    "editor.lineHeight": 2,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "symbols.hidesExplorerArrows": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderLineHighlight": "gutter", 
+    "editor.fontLigatures": true,
+    "workbench.editor.labelFormat": "short",
+    "explorer.compactFolders": false,
+    "editor.semanticHighlighting.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "workbench.statusBar.visible": false,
+    "window.titleBarStyle": "native",
+    "apc.electron": {
+        "titleBarStyle": "hidden",
+        "frame": false
+    },
+    "apc.header": {
+        "height": 36
+    },
+    "apc.menubar.compact": true,
+    "apc.listRow": {
+        "height": 24
+    },
+    "apc.stylesheet": {
+        // "*": "font-family: Dank Mono, monospace;",
+        ".title-label > h2": "display: none",
+        ".editor-actions": "display: none",
+        ".nosidebar .inline-tabs-placeholder": "width: 75px",
+        ".pane-header": "padding: 0 8px",
+        ".pane-body": "padding: 8px",
+        ".split-view-view:first-child .pane-header": "display: none !important;",
+        ".monaco-list-row": "border-radius: 4px;",
+        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;",
+    },
+    "apc.font.family": "Inter",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "app.js": ".env",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml"
+    },
+    "terminal.integrated.fontSize": 14,
+    // "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.smoothScrolling": true,
+    "editor.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "editor.cursorBlinking": "phase",
+    "terminal.integrated.profiles.linux": {
+
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "update.mode": "manual",
+    "editor.tabSize": 2,
+    "prisma.showPrismaDataPlatformNotification": false,
+    "animations.Install-Method": "Apc Customize UI++",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "editor.fontSize": 16,
+    "workbench.sideBar.location": "right",
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "editor.cursorStyle": "block",
+    "code-runner.preserveFocus": false,
+    "code-runner.preserve Focus": false,
+    "code-runner.runInTerminal": false,
+    "luau-lsp.completion.imports.enabled": true,
+    "luau-lsp.diagnostics.strictDatamodelTypes": true,
+    "luau-lsp.fflags.enableByDefault": true,
+    "workbench.settings.applyToAllProfiles": []
+}
